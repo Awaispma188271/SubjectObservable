@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-header">Comp1</div>
+  <div class="card-body">
+    <h5 class="card-title">Username is: {{ userName }}</h5>
+    <p class="card-text">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <input type="text" class="form-control mb-2" [(ngModel)]="userName" />
+    <a href="#" class="btn btn-primary" (click)="onChange()" >Change</a>
+  </div>
+</div>
